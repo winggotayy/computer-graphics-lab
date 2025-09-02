@@ -3,15 +3,6 @@
 ![Python](https://img.shields.io/badge/language-Python-blue.svg)
 ![PyQt5](https://img.shields.io/badge/GUI-PyQt5-green.svg)
 
-## 📚 Project Documentation & Demo
-
-### 📋 Technical Reports
-- **[Detailed Technical Report](205220025_报告.pdf)** - Contains algorithm principles, implementation details, and performance analysis
-- **[System User Manual](205220025_说明书.pdf)** - Complete user guide and operating instructions
-
-### 🎥 Demo
-- **[Feature Demo Video](https://drive.google.com/file/d/1kmmXjXS1-yiGBtPbBKYDq8FVZwtodpT5/view?usp=drive_link)** - Complete system functionality demonstration
-
 ## 🎯 Overview
 
 This project is a complete computer graphics system developed as part of the Computer Graphics course. It implements fundamental 2D graphics algorithms including line drawing, curve generation, geometric transformations, and line clipping operations. The system provides both command-line interface (CLI) and graphical user interface (GUI) for interactive graphics manipulation.
@@ -90,25 +81,39 @@ python cg_cli.py input.txt output
 2. Choose an algorithm from the menu
 3. Click and drag on canvas to create shapes
 
+![Ellipse](screenshots/ellipse.png)
+
 ### Applying Transformations
 1. Enter selection mode and click on a primitive
 2. Choose transformation type (Translate, Rotate, Scale)
 3. Interactively manipulate the selected primitive
+
+![Translate](screenshots/translate.png)
 
 ### Line Clipping
 1. Select a line primitive
 2. Choose clipping algorithm
 3. Define clipping window by dragging on canvas
 
-🎨 Interface Overview
+![Clip](screenshots/clip.png)
+
+## 🎨 Interface Overview
+
 The GUI provides:
 
-Menu Bar: File operations and algorithm selection
+- **Menu Bar**: File operations and algorithm selection
+- **Toolbar**: Quick access to common functions
+- **Canvas**: Interactive drawing area
+- **Primitive List**: Overview of all drawn objects
+- **Status Bar**: Current operation information
 
-Toolbar: Quick access to common functions
+![Canvas](screenshots/canvas.png)
 
-Canvas: Interactive drawing area
+## 📚 Project Documentation & Demo
 
-Primitive List: Overview of all drawn objects
+### 📋 Technical Reports
+- **[Detailed Technical Report](205220025_报告.pdf)** - Contains algorithm principles, implementation details, and performance analysis
+- **[System User Manual](205220025_说明书.pdf)** - Complete user guide and operating instructions
 
-Status Bar: Current operation information
+### 🎥 Demo
+- **[Feature Demo Video](https://drive.google.com/file/d/1kmmXjXS1-yiGBtPbBKYDq8FVZwtodpT5/view?usp=drive_link)** - Complete system functionality demonstration
