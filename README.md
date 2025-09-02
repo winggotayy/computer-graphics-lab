@@ -66,7 +66,7 @@ cd computer-graphics-lab
 
 GUI Mode (Interactive):
 ```bash
-python main.py
+python cg_gui.py
 ```
 
 CLI Mode (Batch Processing):
